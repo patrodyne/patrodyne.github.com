@@ -1,0 +1,204 @@
+.primary-1 { background-color: #185C94 }
+.primary-2 { background-color: #2B4A63 }
+.primary-3 { background-color: #042E50 }
+.primary-4 { background-color: #60A3DB }
+.primary-5 { background-color: #90B9DB }
+
+.secondary-a-1 { background-color: #2825A0 }
+.secondary-a-2 { background-color: #35346B }
+.secondary-a-3 { background-color: #080756 }
+.secondary-a-4 { background-color: #6E6CDF }
+.secondary-a-5 { background-color: #9B99DF }
+
+.secondary-b-1 { background-color: #109C64 }
+.secondary-b-2 { background-color: #2A694F }
+.secondary-b-3 { background-color: #035433 }
+.secondary-b-4 { background-color: #58DDA8 }
+.secondary-b-5 { background-color: #8DDDBD }
+
+.complement-1 { background-color: #E68F17 }
+.complement-2 { background-color: #9A733D }
+.complement-3 { background-color: #7B4904 }
+.complement-4 { background-color: #F6B862 }
+.complement-5 { background-color: #F6D09C }
+
+#bodyColumn a:link, a.externalLink:link {
+	color: #7B4904;
+}
+#bodyColumn a:visited, a.externalLink:visited {
+	color: #9A733D;
+	font-style: italic;
+}
+a:active, a:hover, a.externalLink:active, a.externalLink:hover {
+	text-decoration:underline;
+}
+
+acronym {
+	border-bottom: thin dotted #7B4904;
+}
+body {
+	background-color: #F6D09C;
+}
+body, td, select, input, li {
+	font-family: "Verdana", "Geneva", "DejaVu Sans", sans-serif;
+}
+code, pre, .source {
+	font-family: "Lucida Console", "Monaco", "DejaVu Sans Mono", monospace;
+}
+tt {
+	font-family : "Courier New", "Nimbus Mono L", monospace;
+}
+dl {
+	background-color: #F6B862;
+	border: thin solid #7B4904;
+}
+dt {
+	color: #7B4904;
+}
+hr {
+	border: thin solid #7B4904;
+}
+
+#banner {
+	background-color: #60A3DB;
+	border-bottom: thin solid #60A3DB;
+}
+#banner a:link, a.externalLink:link {
+	color: #042E50;
+}
+#banner a:visited, a.externalLink:visited {
+	color: #2B4A63;
+	font-style: italic;
+}
+#bodyColumn h1 {
+	color: #2B4A63;
+	background-color: #60A3DB;
+	border: thin solid #7B4904;
+}
+#bodyColumn h1 a:link, a.externalLink:link {
+	color: #042E50;
+}
+#bodyColumn h1 a:visited, a.externalLink:visited {
+	color: #2B4A63;
+	font-style: italic;
+}
+#bodyColumn h2 {
+	color: #2B4A63;
+	background-color: #60A3DB;
+	border: thin solid #7B4904;
+}
+#bodyColumn h2 a:link, a.externalLink:link {
+	color: #042E50;
+}
+#bodyColumn h2 a:visited, a.externalLink:visited {
+	color: #2B4A63;
+	font-style: italic;
+}
+#bodyColumn h3 {
+	color: #2B4A63;
+	background-color: #90B9DB;
+	border: thin solid #7B4904;
+}
+#bodyColumn h3 a:link, a.externalLink:link {
+	color: #042E50;
+}
+#bodyColumn h3 a:visited, a.externalLink:visited {
+	color: #2B4A63;
+	font-style: italic;
+}
+#bodyColumn h4 {
+	color: #35346B;
+	background-color: #9B99DF;
+	border: thin solid #7B4904;
+}
+#bodyColumn h4 a:link, a.externalLink:link {
+	color: #080756;
+}
+#bodyColumn h4 a:visited, a.externalLink:visited {
+	color: #35346B;
+	font-style: italic;
+}
+#bodyColumn h5 {
+	color: #35346B;
+	background-color: #9B99DF;
+	border: thin solid #7B4904;
+}
+#bodyColumn h5 a:link, a.externalLink:link {
+	color: #080756;
+}
+#bodyColumn h5 a:visited, a.externalLink:visited {
+	color: #35346B;
+	font-style: italic;
+}
+#bodyColumn table.bodyTable {
+	border-collapse: collapse;
+	border: thin solid #7B4904;
+}
+#bodyColumn table.bodyTable td {
+	border: thin solid #035433;
+}
+#bodyColumn table.bodyTable th {
+	color: #8DDDBD;
+	background-color: #035433;
+	border: thin solid #035433;
+}
+#bodyColumn table.bodyTable tr.a {
+	background-color: #58DDA8;
+}
+#bodyColumn table.bodyTable tr.b {
+	background-color: #8DDDBD;
+}
+#bodyColumn table.bodyTable tr a:link, a.externalLink:link {
+	color: #035433;
+}
+#bodyColumn table.bodyTable tr a:visited, a.externalLink:visited {
+	color: #2A694F;
+	font-style: italic;
+}
+#breadcrumbs, #footer {
+	background-color: #58DDA8;
+	border-top: thin solid #7B4904;
+	border-bottom: thin solid #7B4904;
+}
+#breadcrumbs a:link, a.externalLink:link {
+	color: #035433;
+}
+#breadcrumbs a:visited, a.externalLink:visited {
+	color: #2A694F;
+	font-style: italic;
+}
+#footer a:link, a.externalLink:link {
+	color: #035433;
+}
+#footer a:visited, a.externalLink:visited {
+	color: #2A694F;
+	font-style: italic;
+}
+#leftColumn {
+	background-color: #90B9DB;
+	border: thin solid #7B4904;
+}
+#leftColumn a:link, a.externalLink:link {
+	color: #042E50;
+}
+#leftColumn a:visited, a.externalLink:visited {
+	color: #2B4A63;
+	font-style: italic;
+}
+#navcolumn h5 {
+	color: #042E50;
+	border-bottom: thin solid #042E50;
+}
+#navcolumn strong {
+	color: #185C94;
+	text-decoration:underline;
+}
+#search #q, #search #btnG {
+	border: thin solid #7B4904;
+}
+
+.source {
+	background-color: #F6B862;
+	border: thin solid #7B4904;
+}
+
