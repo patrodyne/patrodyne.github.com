@@ -1,0 +1,7 @@
+Projects
+
+	* {{{../sites/site-demo/}Site Demo}} - demonstration of our <Site Skin>.
+
+	* {{{../sites/site-skin/}Site Skin}} - our skin for the <Maven Site Plugin>
+
+~~ vi:set tabstop=4 hardtabs=4 shiftwidth=4:

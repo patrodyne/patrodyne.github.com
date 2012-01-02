@@ -1,32 +1,32 @@
-.primary-1 { background-color: #185C94 }
-.primary-2 { background-color: #2B4A63 }
-.primary-3 { background-color: #042E50 }
-.primary-4 { background-color: #60A3DB }
-.primary-5 { background-color: #90B9DB }
+.primary-1 { background-color: #E11721 }
+.primary-2 { background-color: #973C41 }
+.primary-3 { background-color: #79040A }
+.primary-4 { background-color: #F56169 }
+.primary-5 { background-color: #F59BA0 }
 
-.secondary-a-1 { background-color: #2825A0 }
-.secondary-a-2 { background-color: #35346B }
-.secondary-a-3 { background-color: #080756 }
-.secondary-a-4 { background-color: #6E6CDF }
-.secondary-a-5 { background-color: #9B99DF }
+.secondary-a-1 { background-color: #E67117 }
+.secondary-a-2 { background-color: #9A653D }
+.secondary-a-3 { background-color: #7B3804 }
+.secondary-a-4 { background-color: #F6A262 }
+.secondary-a-5 { background-color: #F6C39C }
 
-.secondary-b-1 { background-color: #109C64 }
-.secondary-b-2 { background-color: #2A694F }
-.secondary-b-3 { background-color: #035433 }
-.secondary-b-4 { background-color: #58DDA8 }
-.secondary-b-5 { background-color: #8DDDBD }
+.secondary-b-1 { background-color: #B51275 }
+.secondary-b-2 { background-color: #79305C }
+.secondary-b-3 { background-color: #61033C }
+.secondary-b-4 { background-color: #E65BAF }
+.secondary-b-5 { background-color: #E692C5 }
 
-.complement-1 { background-color: #E68F17 }
-.complement-2 { background-color: #9A733D }
-.complement-3 { background-color: #7B4904 }
-.complement-4 { background-color: #F6B862 }
-.complement-5 { background-color: #F6D09C }
+.complement-1 { background-color: #23BC13 }
+.complement-2 { background-color: #397E32 }
+.complement-3 { background-color: #0D6503 }
+.complement-4 { background-color: #69E85C }
+.complement-5 { background-color: #9BE893 }
 
 #bodyColumn a:link, a.externalLink:link {
-	color: #7B4904;
+	color: #0D6503;
 }
 #bodyColumn a:visited, a.externalLink:visited {
-	color: #9A733D;
+	color: #397E32;
 	font-style: italic;
 }
 a:active, a:hover, a.externalLink:active, a.externalLink:hover {
@@ -34,10 +34,10 @@ a:active, a:hover, a.externalLink:active, a.externalLink:hover {
 }
 
 acronym {
-	border-bottom: thin dotted #7B4904;
+	border-bottom: thin dotted #0D6503;
 }
 body {
-	background-color: #F6D09C;
+	background-color: #9BE893;
 }
 body, td, select, input, li {
 	font-family: "Verdana", "Geneva", "DejaVu Sans", sans-serif;
@@ -49,156 +49,156 @@ tt {
 	font-family : "Courier New", "Nimbus Mono L", monospace;
 }
 dl {
-	background-color: #F6B862;
-	border: thin solid #7B4904;
+	background-color: #69E85C;
+	border: thin solid #0D6503;
 }
 dt {
-	color: #7B4904;
+	color: #0D6503;
 }
 hr {
-	border: thin solid #7B4904;
+	border: thin solid #0D6503;
 }
 
 #banner {
-	background-color: #60A3DB;
-	border-bottom: thin solid #60A3DB;
+	background-color: #F56169;
+	border-bottom: thin solid #F56169;
 }
 #banner a:link, a.externalLink:link {
-	color: #042E50;
+	color: #79040A;
 }
 #banner a:visited, a.externalLink:visited {
-	color: #2B4A63;
+	color: #973C41;
 	font-style: italic;
 }
 #bodyColumn h1 {
-	color: #2B4A63;
-	background-color: #60A3DB;
-	border: thin solid #7B4904;
+	color: #973C41;
+	background-color: #F56169;
+	border: thin solid #0D6503;
 }
 #bodyColumn h1 a:link, a.externalLink:link {
-	color: #042E50;
+	color: #79040A;
 }
 #bodyColumn h1 a:visited, a.externalLink:visited {
-	color: #2B4A63;
+	color: #973C41;
 	font-style: italic;
 }
 #bodyColumn h2 {
-	color: #2B4A63;
-	background-color: #60A3DB;
-	border: thin solid #7B4904;
+	color: #973C41;
+	background-color: #F56169;
+	border: thin solid #0D6503;
 }
 #bodyColumn h2 a:link, a.externalLink:link {
-	color: #042E50;
+	color: #79040A;
 }
 #bodyColumn h2 a:visited, a.externalLink:visited {
-	color: #2B4A63;
+	color: #973C41;
 	font-style: italic;
 }
 #bodyColumn h3 {
-	color: #2B4A63;
-	background-color: #90B9DB;
-	border: thin solid #7B4904;
+	color: #973C41;
+	background-color: #F59BA0;
+	border: thin solid #0D6503;
 }
 #bodyColumn h3 a:link, a.externalLink:link {
-	color: #042E50;
+	color: #79040A;
 }
 #bodyColumn h3 a:visited, a.externalLink:visited {
-	color: #2B4A63;
+	color: #973C41;
 	font-style: italic;
 }
 #bodyColumn h4 {
-	color: #35346B;
-	background-color: #9B99DF;
-	border: thin solid #7B4904;
+	color: #9A653D;
+	background-color: #F6C39C;
+	border: thin solid #0D6503;
 }
 #bodyColumn h4 a:link, a.externalLink:link {
-	color: #080756;
+	color: #7B3804;
 }
 #bodyColumn h4 a:visited, a.externalLink:visited {
-	color: #35346B;
+	color: #9A653D;
 	font-style: italic;
 }
 #bodyColumn h5 {
-	color: #35346B;
-	background-color: #9B99DF;
-	border: thin solid #7B4904;
+	color: #9A653D;
+	background-color: #F6C39C;
+	border: thin solid #0D6503;
 }
 #bodyColumn h5 a:link, a.externalLink:link {
-	color: #080756;
+	color: #7B3804;
 }
 #bodyColumn h5 a:visited, a.externalLink:visited {
-	color: #35346B;
+	color: #9A653D;
 	font-style: italic;
 }
 #bodyColumn table.bodyTable {
 	border-collapse: collapse;
-	border: thin solid #7B4904;
+	border: thin solid #0D6503;
 }
 #bodyColumn table.bodyTable td {
-	border: thin solid #035433;
+	border: thin solid #61033C;
 }
 #bodyColumn table.bodyTable th {
-	color: #8DDDBD;
-	background-color: #035433;
-	border: thin solid #035433;
+	color: #E692C5;
+	background-color: #61033C;
+	border: thin solid #61033C;
 }
 #bodyColumn table.bodyTable tr.a {
-	background-color: #58DDA8;
+	background-color: #E65BAF;
 }
 #bodyColumn table.bodyTable tr.b {
-	background-color: #8DDDBD;
+	background-color: #E692C5;
 }
 #bodyColumn table.bodyTable tr a:link, a.externalLink:link {
-	color: #035433;
+	color: #61033C;
 }
 #bodyColumn table.bodyTable tr a:visited, a.externalLink:visited {
-	color: #2A694F;
+	color: #79305C;
 	font-style: italic;
 }
 #breadcrumbs, #footer {
-	background-color: #58DDA8;
-	border-top: thin solid #7B4904;
-	border-bottom: thin solid #7B4904;
+	background-color: #E65BAF;
+	border-top: thin solid #0D6503;
+	border-bottom: thin solid #0D6503;
 }
 #breadcrumbs a:link, a.externalLink:link {
-	color: #035433;
+	color: #61033C;
 }
 #breadcrumbs a:visited, a.externalLink:visited {
-	color: #2A694F;
+	color: #79305C;
 	font-style: italic;
 }
 #footer a:link, a.externalLink:link {
-	color: #035433;
+	color: #61033C;
 }
 #footer a:visited, a.externalLink:visited {
-	color: #2A694F;
+	color: #79305C;
 	font-style: italic;
 }
 #leftColumn {
-	background-color: #90B9DB;
-	border: thin solid #7B4904;
+	background-color: #F59BA0;
+	border: thin solid #0D6503;
 }
 #leftColumn a:link, a.externalLink:link {
-	color: #042E50;
+	color: #79040A;
 }
 #leftColumn a:visited, a.externalLink:visited {
-	color: #2B4A63;
+	color: #973C41;
 	font-style: italic;
 }
 #navcolumn h5 {
-	color: #042E50;
-	border-bottom: thin solid #042E50;
+	color: #79040A;
+	border-bottom: thin solid #79040A;
 }
 #navcolumn strong {
-	color: #185C94;
+	color: #E11721;
 	text-decoration:underline;
 }
 #search #q, #search #btnG {
-	border: thin solid #7B4904;
+	border: thin solid #0D6503;
 }
 
 .source {
-	background-color: #F6B862;
-	border: thin solid #7B4904;
+	background-color: #69E85C;
+	border: thin solid #0D6503;
 }
-
+/* vi:set tabstop=4 hardtabs=4 shiftwidth=4: */

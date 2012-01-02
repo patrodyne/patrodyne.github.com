@@ -47,6 +47,9 @@ table {
 a:active, a:hover, a.externalLink:active, a.externalLink:hover {
 	text-decoration:underline;
 }
+a[name] {
+	text-decoration:none;
+}
 
 acronym {
 	border-bottom: thin dotted #7B4904;
@@ -123,7 +126,7 @@ hr {
 }
 #bodyColumn h4 {
 	color: #35346B;
-	background-color: #9B99DF;
+	background-color: #6E6CDF;
 	border: thin solid #7B4904;
 }
 #bodyColumn h4 a:link, a.externalLink:link {
