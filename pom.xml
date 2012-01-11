@@ -9,7 +9,7 @@
 	<groupId>org.patrodyne</groupId>
 	<artifactId>patrodyne-site</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/patrodyne/patrodyne.github.com.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:patrodyne/patrodyne.github.com.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/patrodyne/patrodyne.github.com.git</developerConnection>
 		<url>https://github.com/patrodyne/patrodyne.github.com/blob/master</url>
 	</scm>
 

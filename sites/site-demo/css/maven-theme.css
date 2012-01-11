@@ -32,6 +32,9 @@
 a:active, a:hover, a.externalLink:active, a.externalLink:hover {
 	text-decoration:underline;
 }
+a[name] {
+	text-decoration:none;
+}
 
 acronym {
 	border-bottom: thin dotted #0D6503;
@@ -108,7 +111,7 @@ hr {
 }
 #bodyColumn h4 {
 	color: #9A653D;
-	background-color: #F6C39C;
+	background-color: #F6A262;
 	border: thin solid #0D6503;
 }
 #bodyColumn h4 a:link, a.externalLink:link {

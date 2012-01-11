@@ -50,8 +50,17 @@
 			<item name="Site Skin" href="../sites/site-skin/index.html"/>
 		</menu>
 
+		<menu name="Download">
+			<item name="artifacts" href="http://search.maven.org/#search|ga|1|g%3A%22org.patrodyne%22"/>
+		</menu>
+		
 		<menu ref="reports"/>
 
+		<menu name="Key Servers">
+			<item name="Ubuntu" href="http://keyserver.ubuntu.com:11371/pks/lookup?op=vindex&amp;search=0xBB6EA6D899CDA9AF"/>
+			<item name="MIT" href="http://pgp.mit.edu:11371/pks/lookup?search=patrodyne.org&amp;op=index"/>
+		</menu>
+		
 		<menu name="Powered By"/>
 
 		<!-- <footer/> -->
