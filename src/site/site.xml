@@ -47,6 +47,7 @@
 		
 		<menu name="Projects">
 			<item name="Site Demo" href="../sites/site-demo/index.html"/>
+			<item name="Site Hello" href="../sites/site-hello/index.html"/>
 			<item name="Site Skin" href="../sites/site-skin/index.html"/>
 		</menu>
 
