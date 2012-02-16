@@ -57,21 +57,6 @@ acronym {
 body {
 	background-color: #F6D09C;
 }
-body, td, select, input, li {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Helvetica, "DejaVu Sans", sans-serif;
-}
-strong, em, b, i {
-    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Helvetica, "DejaVu Sans", sans-serif;
-}
-h1, h2, h3, h4, h5, h6, address {
-    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Helvetica, "DejaVu Sans", sans-serif;
-}
-code, pre, .source {
-	font-family: "Lucida Console", "Monaco", "DejaVu Sans Mono", monospace;
-}
-tt {
-	font-family : "Courier New", "Nimbus Mono L", monospace;
-}
 dl {
 	background-color: #F6B862;
 	border: thin solid #7B4904;
@@ -151,6 +136,18 @@ hr {
 	color: #080756;
 }
 #bodyColumn h5 a:visited, a.externalLink:visited {
+	color: #35346B;
+	font-style: italic;
+}
+#bodyColumn h6 {
+	color: #35346B;
+	background-color: #9B99DF;
+	border: thin solid #7B4904;
+}
+#bodyColumn h6 a:link, a.externalLink:link {
+	color: #080756;
+}
+#bodyColumn h6 a:visited, a.externalLink:visited {
 	color: #35346B;
 	font-style: italic;
 }

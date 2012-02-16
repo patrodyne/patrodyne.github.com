@@ -57,15 +57,6 @@ acronym {
 body {
 	background-color: #9BE893;
 }
-body, td, select, input, li {
-	font-family: "Verdana", "Geneva", "DejaVu Sans", sans-serif;
-}
-code, pre, .source {
-	font-family: "Lucida Console", "Monaco", "DejaVu Sans Mono", monospace;
-}
-tt {
-	font-family : "Courier New", "Nimbus Mono L", monospace;
-}
 dl {
 	background-color: #69E85C;
 	border: thin solid #0D6503;
@@ -145,6 +136,18 @@ hr {
 	color: #7B3804;
 }
 #bodyColumn h5 a:visited, a.externalLink:visited {
+	color: #9A653D;
+	font-style: italic;
+}
+#bodyColumn h6 {
+	color: #9A653D;
+	background-color: #F6C39C;
+	border: thin solid #0D6503;
+}
+#bodyColumn h6 a:link, a.externalLink:link {
+	color: #7B3804;
+}
+#bodyColumn h6 a:visited, a.externalLink:visited {
 	color: #9A653D;
 	font-style: italic;
 }

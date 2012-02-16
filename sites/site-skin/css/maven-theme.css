@@ -32,6 +32,9 @@
 a:active, a:hover, a.externalLink:active, a.externalLink:hover {
 	text-decoration:underline;
 }
+a[name] {
+	text-decoration:none;
+}
 
 acronym {
 	border-bottom: thin dotted #0D6503;
@@ -40,7 +43,13 @@ body {
 	background-color: #9BE893;
 }
 body, td, select, input, li {
-	font-family: "Verdana", "Geneva", "DejaVu Sans", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Verdana", "Geneva", "DejaVu Sans", sans-serif;
+}
+strong, em, b, i {
+    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", "Verdana", "Geneva", "DejaVu Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, address {
+    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", "Verdana", "Geneva", "DejaVu Sans", sans-serif;
 }
 code, pre, .source {
 	font-family: "Lucida Console", "Monaco", "DejaVu Sans Mono", monospace;
@@ -108,7 +117,7 @@ hr {
 }
 #bodyColumn h4 {
 	color: #9A653D;
-	background-color: #F6C39C;
+	background-color: #F6A262;
 	border: thin solid #0D6503;
 }
 #bodyColumn h4 a:link, a.externalLink:link {
