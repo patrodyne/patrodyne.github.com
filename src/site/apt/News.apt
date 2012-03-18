@@ -1,5 +1,23 @@
 News, Past and Present
 
+* 2012-03-04
+
+	<<On the surface>>, our {{{../sites/site-hello/index.html}Site Hello}} project
+	is trivial. It builds an application to display a simple salutation. As such,
+	the application can be used as a starting point for any Swing project. It uses
+	one class to launch the application and another to start the GUI. The launcher
+	limits its imports to the standard classloader but the GUI or other classes
+	may use packages loaded by the Java Extension Mechanism. In the event that the
+	extension path is not present, the launcher catches the exception and informs
+	the user with a pop-up dialog.
+	
+	<<Under the surface>>, our {{{../sites/site-hello/index.html}Site Hello}}
+	project is actually about using a terrific open source tool from
+	{{{http://izpack.org/}IzPack}} to create an installer for any project. Learn
+	how to add a user-friendly installer to your project. Our thanks to the
+	developers at {{{http://izpack.org/}IzPack}} and See our demonstration page
+	for {{{../sites/site-hello/Demonstration.html}more}}.
+
 * 2012-01-01
 
 	Patrodyne Site Skin is a custom skin for the 

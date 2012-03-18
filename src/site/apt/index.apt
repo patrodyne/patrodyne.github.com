@@ -4,22 +4,41 @@ Welcome to Patrodyne!
 	projects are written in Java, with an emphasis on Enterprise components, and
 	released under the LGPL license.
 
-* News: 2012-03-04
+* News: 2012-03-17
 
-	<<On the surface>>, our {{{../sites/site-hello/index.html}Site Hello}} project
-	is trivial. It builds an application to display a simple salutation. As such,
-	the application can be used as a starting point for any Swing project. It uses
-	one class to launch the application and another to start the GUI. The launcher
-	limits its imports to the standard classloader but the GUI or other classes
-	may use packages loaded by the Java Extension Mechanism. In the event that the
-	extension path is not present, the launcher catches the exception and informs
-	the user with a pop-up dialog.
+	<TransformIO>, or TIO for short, is a new project <in development>. When TIO is
+	released it will be an extract, transform and load tool with three modes of
+	execution:
 	
-	<<Under the surface>>, our {{{../sites/site-hello/index.html}Site Hello}}
-	project is actually about using a terrific open source tool from
-	{{{http://izpack.org/}IzPack}} to create an installer for any project. Learn
-	how to add a user-friendly installer to your project. Our thanks to the
-	developers at {{{http://izpack.org/}IzPack}} and See our demonstration page
-	for {{{../sites/site-hello/Demonstration.html}more}}.
+	[[1]] Desktop Graphic User Interface (GUI).
+
+	[[2]] Terminal Text User Interface (TUI).
+
+	[[3]] Command Line Interface (CLI).
+
+	[]
+
+	TIO uses a batch file, expressed in XML, to configure:
+	
+	[[1]] The record format of the source stream (extract).
+
+	[[2]] An optional transformation using your choice of scripting language:
+	
+		[[a]] Bean Shell
+		
+		[[b]] Groovy
+
+		[[c]] Java
+		
+		[[d]] JavaScript
+		
+		[[e]] Jython
+		
+		[[f]] Other JSR 223 compliant scripting engines.
+
+	[[3]] The record format of the target stream (load).
+	
+	[]
+
 
 ~~ vi:set tabstop=4 hardtabs=4 shiftwidth=4:
