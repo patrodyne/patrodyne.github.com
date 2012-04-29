@@ -1,0 +1,7 @@
+org.patrodyne.etl.transformio
+org.patrodyne.etl.transformio.cli
+org.patrodyne.etl.transformio.gui
+org.patrodyne.etl.transformio.io
+org.patrodyne.etl.transformio.jul
+org.patrodyne.etl.transformio.tui
+org.patrodyne.etl.transformio.xml
