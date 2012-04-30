@@ -4,7 +4,7 @@ Welcome to Patrodyne!
 	projects are written in Java, with an emphasis on Enterprise components, and
 	released under the LGPL license.
 
-* News: 2012-03-17
+* News: 2012-04-29
 
 	TransformIO, initial working version committed to GitHub. TransformIO is an
 	extract, transform and load tool with three modes of execution: GUI, TUI and
