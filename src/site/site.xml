@@ -47,7 +47,7 @@
 		
 		<menu name="Projects">
 			<item name="ETL TransformIO" href="../sites/etl-TransformIO/index.html"/>
-			<item name="Scripting Java" href="../sites/scripting-java/index.html"/>
+			<item name="Scripting Java" href="../sites/scripting-Java/index.html"/>
 			<item name="Site Demo" href="../sites/site-demo/index.html"/>
 			<item name="Site Hello" href="../sites/site-hello/index.html"/>
 			<item name="Site Skin" href="../sites/site-skin/index.html"/>
