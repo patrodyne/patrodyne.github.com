@@ -4,10 +4,11 @@ Welcome to Patrodyne!
 	projects are written in Java, with an emphasis on Enterprise components, and
 	released under the LGPL license.
 
-* News: 2012-04-29
+* News: 2012-06-12
 
-	TransformIO, initial working version committed to GitHub. TransformIO is an
-	extract, transform and load tool with three modes of execution: GUI, TUI and
-	CLI.
+	Scripting for Java is a JSR-223 implementation of a ScriptEngine to execute
+	Java statements from within an application like TransformIO. The project
+	produces a JAR that can be used as a embedded library or as an executable
+	to run source code dynamically. 
 
 ~~ vi:set tabstop=4 hardtabs=4 shiftwidth=4:
