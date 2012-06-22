@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Sitemap</title>
+    <title></title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -65,9 +65,20 @@
                   <li class="none">
                           <a href="index.html" title="Introduction">Introduction</a>
             </li>
-                                                                                                        <li class="collapsed">
-                          <a href="Modes.html" title="Modes">Modes</a>
-                  </li>
+                                                                                                            <li class="expanded">
+            <strong>Modes</strong>
+                  <ul>
+                      <li class="none">
+                          <a href="Modes.html#Graphical" title="Graphical">Graphical</a>
+            </li>
+                      <li class="none">
+                          <a href="Modes.html#Textual" title="Textual">Textual</a>
+            </li>
+                      <li class="none">
+                          <a href="Modes.html#Command" title="Command">Command</a>
+            </li>
+              </ul>
+        </li>
                                                                                                                                             <li class="collapsed">
                           <a href="Engines.html" title="Engines">Engines</a>
                   </li>
@@ -136,7 +147,39 @@
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <div class="section"><h2>Sitemap<a name="Sitemap"></a></h2><p>This page lists all entries of the navigation menu in expanded form.</p><div class="section"><div class="section"><h4>Overview<a name="Overview"></a></h4><hr /><ul><li><a href="index.html">Introduction</a></li><li><a href="Modes.html">Modes</a><ul><li><a href="Modes.html#Graphical">Graphical</a></li><li><a href="Modes.html#Textual">Textual</a></li><li><a href="Modes.html#Command">Command</a></li></ul></li><li><a href="Engines.html">Engines</a><ul><li><a href="Engines.html#JavaScript">JavaScript</a></li><li><a href="Engines.html#JavaCode">JavaCode</a></li><li><a href="Engines.html#Jython">Jython</a></li><li><a href="Engines.html#Groovy">Groovy</a></li><li><a href="Engines.html#BeanShell">BeanShell</a></li></ul></li><li><a href="Examples.html">Examples</a><ul><li><a href="Examples.html#a01SimpleCopy">01SimpleCopy</a></li><li><a href="Examples.html#a02ReverseLastAndFirstName">02ReverseLastAndFirstName</a></li><li><a href="Examples.html#a03FoodPrices">03FoodPrices</a></li><li><a href="Examples.html#a04Calories">04Calories</a></li><li><a href="Examples.html#a05RiversHash">05RiversHash</a></li><li><a href="Examples.html#a06RiversFlat">06RiversFlat</a></li><li><a href="Examples.html#a07RiversJava">07RiversJava</a></li><li><a href="Examples.html#a08RiversBeanShell">08RiversBeanShell</a></li><li><a href="Examples.html#a09RiversGroovy">09RiversGroovy</a></li><li><a href="Examples.html#a10RiversJython">10RiversJython</a></li><li><a href="Examples.html#a11AesopsFablesToPSV">11AesopsFablesToPSV</a></li><li><a href="Examples.html#a12AesopsFablesToTXT">12AesopsFablesToTXT</a></li></ul></li><li><a href="faq.html">FAQ</a></li></ul></div><div class="section"><h4>Java<a name="Java"></a></h4><hr /><ul><li><a class="externalLink" href="http://java.com/en/download/testjava.jsp">Test</a></li><li><a class="externalLink" href="http://java.com/en/download/installed.jsp">Verify</a></li></ul></div><div class="section"><h4>Download<a name="Download"></a></h4><hr /><ul><li><a href="Patrodyne-ETL-TransformIO.jnlp">Release</a></li><li><a class="externalLink" href="http://search.maven.org/#search|ga|1|a%3A%22patrodyne-etl-TransformIO%22">Artifacts</a></li><li><a class="externalLink" href="https://github.com/patrodyne/patrodyne-etl/tarball/master">Tarball</a></li><li><a class="externalLink" href="https://github.com/patrodyne/patrodyne-etl/zipball/master">Zipball</a></li></ul></div><div class="section"><h4>Project Documentation<a name="Project_Documentation"></a></h4><hr /><ul><li><a href="./project-info.html">Project Information</a><ul><li><a href="project-summary.html">Project Summary</a></li><li><a href="issue-tracking.html">Issue Tracking</a></li><li><a href="source-repository.html">Source Repository</a></li><li><a href="dependencies.html">Dependencies</a></li><li><a href="plugins.html">Project Plugins</a></li><li><a href="team-list.html">Project Team</a></li><li><a href="license.html">Project License</a></li></ul></li><li><a href="./project-reports.html">Project Reports</a><ul><li><a href="apidocs/index.html">JavaDocs</a></li><li><a href="surefire-report.html">Surefire Report</a></li><li><a href="dev-activity.html">Developer Activity</a></li><li><a href="file-activity.html">File Activity</a></li><li><a href="changelog.html">Change Log</a></li></ul></li></ul></div><div class="section"><h4>Powered By<a name="Powered_By"></a></h4><hr /></div></div></div>
+        <div class="section"><h2>TransformIO Modes<a name="TransformIO_Modes"></a></h2><p><i>TransformIO</i> has with three modes of execution:</p><ol style="list-style-type: decimal"><li>Desktop Graphic User Interface (GUI).</li><li>Terminal Text User Interface (TUI).</li><li>Command Line Interface (CLI).</li></ol><div class="section"><h3><a name="Graphical">Graphical</a> User Interface (GUI)<a name="Graphical_User_Interface_GUI"></a></h3><img src="images/Patrodyne-ETL-TransformIO-GUI.png" alt="Patrodyne-ETL-TransformIO-GUI.png" /><p>The TransformIO GUI is the easiest way to create/edit a batch, view/edit source data, view the target data or review the output log. The user interface has four windows and menus:</p><ul><li>batch - left window, an XML editor to create or edit configure a batch.</li><li>source - right top window to view or edit source data.</li><li>target - right bottom window to view target data.</li><li>console - bottom window to review the output log.</li></ul><p>The menu bar has seven drop-down menus:</p><ul><li>File - Create a New batch. Open, Save or Close a current batch. Exit the application.</li><li>Edit - Undo, Redo, Cut, Copy, Paste or set Preferences.</li><li>Transform - Debug or Run the current batch.<ul><li>Debug - Executes the batch in-memory.</li><li>Run - Executes the batch and outputs to the target location.</li></ul></li><li>Source - Wrap mode, Edit mode, Save, Refresh data.</li><li>Target - Wrap mode. Blank (clear) the target window.</li><li>Console - Wrap mode. Blank (clear) the console window. Display available scripting engines.</li><li>Help - Online, Donate, (hot) Keys, About.</li></ul></div><div class="section"><h3><a name="Textual">Textual</a> User Interface (TUI)<a name="Textual_User_Interface_TUI"></a></h3><img src="images/Patrodyne-ETL-TransformIO-TUI.png" alt="Patrodyne-ETL-TransformIO-TUI.png" /><p>Often, <a class="externalLink" href="http://en.wikipedia.org/wiki/Headless_system">headless servers</a> are used for batch processing because they are streamlined, inexpensive and reliable. Or, home users may use a terminal (ssh) to access their Network Attached Storage (NAS) servers. In these cases, TransformIO's <i>Textual User Interface</i> (TUI) is a convenient way to maintain TIO batches.</p><p>To install TransformIO on a headless server, <a class="externalLink" href="https://oss.sonatype.org/content/groups/public/org/patrodyne/patrodyne-etl-TransformIO/">download</a> the installer to your server and run it in console mode:</p><div class="source"><pre>java -jar patrodyne-etl-TransformIO-#.#.#-install.jar -console
+
+Welcome to the installation of TransformIO #.#.#!
+ - Patrodyne &lt;rick.osullivan@patrodyne.org&gt;
+The homepage is at: http://patrodyne.org/sites/etl-TransformIO
+press 1 to continue, 2 to quit, 3 to redisplay
+Select target path [~/opt/Patrodyne/patrodyne-etl-TransformIO/#.#.#] 
+press 1 to continue, 2 to quit, 3 to redisplay
+[ Starting to unpack ]
+[ Processing package: Core (1/3) ]
+[ Processing package: Logger (2/3) ]
+[ Processing package: Logback (3/3) ]
+[ Unpacking finished ]
+Install was successful
+application installed on ~/opt/Patrodyne/patrodyne-etl-TransformIO/#.#.#
+[ Console installation done ]</pre></div><p>The TUI uses <a class="externalLink" href="http://www.pitman.co.za/projects/charva/index.html">CHARVA</a> to display a full screen user interface when you are working in remote terminal.</p><p>CHARVA is a Java framework for presenting a &quot;graphical&quot; user interface, composed of elements such as windows, dialogs, menus, text fields and buttons, on a traditional character-cell ASCII terminal.</p><p>The CHARVA Java library is included with the TransformIO distribution <i>but the CHARVA native library is not included</i>; fear not, it is easy to build the native library for your system using the instructions on their <a class="externalLink" href="http://www.pitman.co.za/projects/charva/Download.html">download site</a>.</p><p>When TransformIO is run in TUI mode but cannot find the CHARVA library you will be instructed to build the native library, as follows:</p><div class="source"><pre>$ TransformIO.sh mode=tui
+
+no Terminal in java.library.path
+Please build 'CHARVA: A Java Windowing Toolkit for Text Terminals'
+from http://www.pitman.co.za/projects/charva/index.html
+and copy libTerminal.so or Terminal.dll to:
+lib/native</pre></div><p>Note: The <tt>lib/native</tt> path is relative to your TransformIO installation path. The default location is:</p><div class="source"><pre>${HOME}/opt/Patrodyne/patrodyne-etl-TransformIO/#.#.#/lib/native</pre></div></div><div class="section"><h3><a name="Command">Command</a> Line Interface (CLI)<a name="Command_Line_Interface_CLI"></a></h3><p>After you have configured a batch using the GUI or TUI, you can run the batch from the command line. The CLI is the best way to repeatedly run the same TIO batch. This is also the way you would schedule batch jobs using CRON or any other scheduler.</p><div class="source"><pre>$ TransformIO.sh mode=CLI egs/02ReverseLastAndFirstName/batch.tio 
+
+INFO  options: TransformIO 1.0.0-SNAPSHOT
+INFO  batch=egs/02ReverseLastAndFirstName/batch.tio
+INFO  mode=CLI
+INFO  Source: file:egs/02ReverseLastAndFirstName/input.txt
+INFO  Target: file:egs/02ReverseLastAndFirstName/output.txt
+INFO  Transform: START
+DEBUG Record: 1
+DEBUG Record: 2
+DEBUG Record: 3
+INFO  Transform: SUCCESS (3, 0.667 ms)</pre></div></div></div>
       </div>
     </div>
     <div class="clear">
