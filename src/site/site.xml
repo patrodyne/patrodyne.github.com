@@ -43,11 +43,13 @@
 			<item name="Introduction" href="index.html"/>
 			<item name="FAQ" href="faq.html"/>
 			<item name="News" href="News.html"/>
+			<item name="Safety" href="http://www.google.com/safebrowsing/diagnostic?site=patrodyne.org"/>
 		</menu>
 		
 		<menu name="Projects">
 			<item name="ETL TransformIO" href="../sites/etl-TransformIO/index.html"/>
 			<item name="Scripting Java" href="../sites/scripting-Java/index.html"/>
+			<item name="Scripting JavaBang" href="../sites/scripting-JavaBang/index.html"/>
 			<item name="Site Demo" href="../sites/site-demo/index.html"/>
 			<item name="Site Hello" href="../sites/site-hello/index.html"/>
 			<item name="Site Skin" href="../sites/site-skin/index.html"/>

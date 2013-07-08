@@ -4,11 +4,14 @@ Welcome to Patrodyne!
 	projects are written in Java, with an emphasis on Enterprise components, and
 	released under the LGPL license.
 
-* News: 2012-06-12
+* News: 2013-07-07
 
-	Scripting for Java is a JSR-223 implementation of a ScriptEngine to execute
-	Java statements from within an application like TransformIO. The project
-	produces a JAR that can be used as a embedded library or as an executable
-	to run source code dynamically. 
+	New project is in the works to use our Java Scripting Engine as a shebang.
+	In Linux and Unix, a shebang is the character sequence consisting of
+	the characters "number sign" and "exclamation mark" (that is, "#!").
+
+	When it occurs as the initial two characters on the first line of a shell
+	script, the rest of the script is executed by the interpreter specified on
+	that line. The JavaBang project will allow Java to be used as shell scripts!
 
 ~~ vi:set tabstop=4 hardtabs=4 shiftwidth=4:

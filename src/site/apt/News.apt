@@ -1,5 +1,12 @@
 News, Past and Present
 
+* 2012-06-12
+
+	Scripting for Java is a JSR-223 implementation of a ScriptEngine to execute
+	Java statements from within an application like TransformIO. The project
+	produces a JAR that can be used as a embedded library or as an executable
+	to run source code dynamically. 
+
 * 2012-04-29
 
 	TransformIO, initial working version committed to GitHub. TransformIO is an
