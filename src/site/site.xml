@@ -53,6 +53,7 @@
 			<item name="Site Demo" href="../sites/site-demo/index.html"/>
 			<item name="Site Hello" href="../sites/site-hello/index.html"/>
 			<item name="Site Skin" href="../sites/site-skin/index.html"/>
+			<item name="Timer HttpTask" href="../sites/timer-HttpTask/index.html"/>
 		</menu>
 
 		<menu name="Download">
